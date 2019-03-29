@@ -1,4 +1,4 @@
-# work-nb2-tools
+# nb2-api-scripts
 Command line scripts to interact with the NB2 API to make life easier. Keep in mind this a work in progress, as I build out and test these scripts, I will upate this README. If anyone wants to contribute, submit a pull request and have at it! 
 
 #### These scripts assume that you have access to the NB2 environments. It also assumes that your username and password are the same between all of the environments. If you have different username and passwords, please either make them all the same or, go to the FAQ section of this README.
@@ -63,15 +63,15 @@ The packages used in these scripts are:
 
 ### Clone
 
-Clone this repo to your local machine (the one you installed Node.js on) using https://github.com/dandresen/work-nb2-tools.git
+Clone this repo to your local machine (the one you installed Node.js on) using https://github.com/dandresen/nb2-api-scripts.git
 
-You can also download the <a href=https://github.com/dandresen/work-nb2-tools/archive/master.zip>zip</a> file.
+You can also download the <a href=https://github.com/dandresen/nb2-api-scripts/archive/master.zip>zip</a> file.
 
 ---
 
 ## Examples
 
-In a terminal, navigate to your ```work-nb2-tools/``` directory. There, you will see a ```postGTFS/``` directory and a 
+In a terminal, navigate to your ```nb2-api-scripts/``` directory. There, you will see a ```postGTFS/``` directory and a 
 ```scripts/``` directory.
 
 Run the GTFS import script, ```postGTFS.js``` from the ```postGTFS/``` directory. Run all of the other scripts from the ```scripts/ ``` directory.

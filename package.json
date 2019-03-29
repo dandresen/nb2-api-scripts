@@ -1,5 +1,5 @@
 {
-  "name": "work-nb2-tools",
+  "name": "nb2-api-scripts",
   "version": "1.0.0",
   "description": "Work with NB2 API",
   "main": "scripts/",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dandresen/work-nb2-tools.git"
+    "url": "git+https://github.com/dandresen/nb2-api-scripts.git"
   },
   "author": "David Andresen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dandresen/work-nb2-tools/issues"
+    "url": "https://github.com/dandresen/nb2-api-scripts/issues"
   },
-  "homepage": "https://github.com/dandresen/work-nb2-tools#readme"
+  "homepage": "https://github.com/dandresen/nb2-api-scripts#readme"
 }
