@@ -1,0 +1,26 @@
+{
+  "name": "work-nb2-tools",
+  "version": "1.0.0",
+  "description": "Work with NB2 API",
+  "main": "scripts/",
+  "dependencies": {
+    "jsonexport": "^2.4.1",
+    "moment": "^2.24.0",
+    "request": "^2.88.0",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandresen/work-nb2-tools.git"
+  },
+  "author": "David Andresen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dandresen/work-nb2-tools/issues"
+  },
+  "homepage": "https://github.com/dandresen/work-nb2-tools#readme"
+}
