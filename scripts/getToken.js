@@ -35,7 +35,7 @@ var getToken = (username, password) => {
     
     var body = `{ "ident": "${username}", "password": "${password}"}`;
     
-    // Chang url here 
+    // CHANGE URL HERE // 
     var options = {
         url: 'https://staging.api.nxbs2dev.com/v2.0/login',
         // url: 'https://dev.api.nxbs2dev.com/v2.0/login',
@@ -47,12 +47,13 @@ var getToken = (username, password) => {
     request ((options), (error, response, body) => {
         if (!error && response.statusCode === 200) {
             allBody = (JSON.parse(body));
+
             fs.writeFile('./token.txt', allBody.token, function(err) {
                 if(err) {
                     return console.log(err);
                 }
 
-                console.log(`Put your token in scripts/token.txt`);
+                console.log(`Awesome-sauce! Put your token in scripts/token.txt`);
             });
             
         } else {

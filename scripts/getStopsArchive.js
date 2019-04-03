@@ -124,6 +124,9 @@ var vehStopArchive = (agency, stopid, start, end, max, environment) => {
                     };
                 });
 
+                var csvStartTime = moment(start).format('MM-DD-HH:mm')
+                var csvEndTime = moment(end).format('HH:mm')
+
                 // Export to CSV
                 jsonexport(finalArchiveObj, (err,csv) => {
                     if(err) {
@@ -131,12 +134,12 @@ var vehStopArchive = (agency, stopid, start, end, max, environment) => {
                     }    
                         // console.log(csv);
 
-                        fs.writeFile(`./output/StopArchive-${agency}-Stop${stopid}-${start}.csv`, csv, function(err) {
+                        fs.writeFile(`./output/StopArchive-${agency}-Stop${stopid}-${csvStartTime}to${csvEndTime}.csv`, csv, function(err) {
                             if(err) {
                                 return console.log(err);
                             }
         
-                            console.log(`Created output/StopArchive-${agency}-Stop${stopid}-${start}.csv`);
+                            console.log(`Created output/StopArchive-${agency}-Stop${stopid}-${csvStartTime}to${csvEndTime}.csv`);
                         });
                 });
 
