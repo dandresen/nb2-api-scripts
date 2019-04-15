@@ -1,7 +1,10 @@
 const request = require('request');
 const fs = require('fs');
 const yargs = require('yargs');
-var path = require('path');
+const path = require('path');
+
+// module to tail the GET and console log import info
+var info = require('./getImportInfo')
 
 var reqInput =  (alias, describe) => {
     return {
@@ -79,7 +82,12 @@ var importData = (agency, time, timezone, smoothing, description, filename, envi
     var postTheData = (options, envName) => {
         return request.post((options), (error, response, body) => {
             if (!error && response.statusCode === 200) {
-                console.log(`You are updating ${agency} and your id for ${envName} is`, JSON.parse(body));
+                importAll = JSON.parse(body);
+                importId = importAll.import_id
+                console.log(`You are updating ${agency} for ${envName} and your id is ${importId}- THIS UPDATE HAS BEEN SENT TO NB2 ${envName}`);
+                console.log('Now...Updating with current status for the import every 10 seconds until COMPLETE, SCHEDULED or ERROR.')
+                return  info.getImportUpdate(importId, environment);
+
             } else {
                 console.log(`Hmmm.. can't seem to get post your data.`, console.log(error));
             }
@@ -153,3 +161,5 @@ var importData = (agency, time, timezone, smoothing, description, filename, envi
 };
 
 importData(argv.a, argv.t, argv.z, argv.s, argv.d, argv.f, argv.e)
+
+

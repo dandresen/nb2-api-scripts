@@ -98,6 +98,8 @@ This script saves your API token to ```scripts/token.txt```.
 #### POST-GTFS 
 
 Place your GTFS ```.zip``` file in ```postGTFS/``` then run the following script to update all, some, or one of the NB2 enviroments with a new GTFS schedule.
+I've scripted the update status to console log to the session so folks can track the status of the update.
+NOTE that you can only tail one import at a time. You can still update all environments at the the same time, but you will be prompted to log into the AP to view the results. 
 
 ```script
 Options:
@@ -120,10 +122,49 @@ Options:
   $ node postGTFS.js -a [agency] -t [time] -z [timezone] -s [smoothing] -d [description] -f [filename] -e [environments]
   
 ```
-If successful, the script will return:
+If successful, the script will return something like:
 ```script
-$ You are updating [agency] and your id for [enviroment] is { import_id: [ID] }
+$ You are updating shape-test for Dev and your id is 1552- THIS UPDATE HAS BEEN SENT TO NB2 Dev
+Now...Updating with current status for the import every 10 seconds until COMPLETE, SCHEDULED or ERROR. 
+Message id: 
+filename: /tmp/gtfs-2019-105-21-22-12.zip authorityProperties: {"distanceConversion":1,"timezone":"America/New_York"}
+Using temporary authority 247a0637-2c14-4585-ab28-dc9229ba62d0
+Importing Agency.
+Importing CalendarDate.
+Importing Calendar.
+Importing FareAttribute.
+Importing FeedInfo.
+Importing Route.
+Importing FareRule.
+Importing Shape.
+Importing Point.
+Importing Stop.
+Importing Transfer.
+Importing Trip.
+Importing Frequency.
+Importing StopTime.
+Importing TypedBlock.
+Importing RouteInfo.
+All import files have been loaded into the database successfully.
+The system is ready to change the authority from its temporary name.
+Performing post-import processing.
+Could not find matching agency for shape-test-1547238061740; nb_agency_id set to null for this agency_info row.
+Could not find matching agency for shape-test; nb_agency_id set to null for this agency_info row.
+
+
+CONGRATULATIONS! Your update has completed for Dev
 ```
+If you schedule an upate you will get:
+
+```script
+Import have been scheduled to run at: Thu Apr 18 2019 06:00:00 GMT+0000 for Dev
+```
+If there is an error, you will get:
+
+```script
+#### Your Import did not Complete for Dev! ####
+```
+
 ---
 #### DELETE-Scheduled-Import
 
