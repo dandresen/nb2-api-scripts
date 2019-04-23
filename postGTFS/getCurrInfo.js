@@ -109,17 +109,3 @@ var getCurrInfo = (agency, time) => {
 module.exports = {getCurrInfo};
 
 
-
-// console.log(getCurrInfo())
-
-// var main = () => {
-//     getCurrDataInfo().then(function(results) {
-//         var chicago = moment.tz("2019-04-18 01:00", `${results}` );
-//         console.log(chicago.format());
-//     });
-// }
-
-// main()
-
-
-
