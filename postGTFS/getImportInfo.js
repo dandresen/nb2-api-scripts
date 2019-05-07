@@ -113,5 +113,7 @@ var getImportUpdate = (nbID, environment) => {
 
 };
 
-exports.getImportUpdate = getImportUpdate;
+module.exports = {
+    getImportUpdate
+}
 

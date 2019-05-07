@@ -3,3 +3,4 @@ postGTFS/data/
 postGTFS/*.zip
 scripts/token.txt
 scripts/output/*
+*.sh

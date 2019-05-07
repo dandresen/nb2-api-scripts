@@ -1,11 +1,12 @@
 const request = require('request');
 const fs = require('fs');
 const path = require('path');
-// const yargs = require('yargs');
 const moment = require('moment');
 
-    
-var getCurrInfo = (agency, time) => {
+// use this function to pass in the agency and the time to then get the agency timezone and convert
+// the time to that timezone
+
+var getCurrInfo = (agency) => {
     var envUrl = {
         prod: `https://ingest.nextbus.com/v2.0/dataset?search=${agency}&statusFilter=current`,
         stage: `https://staging.ingest.nxbs2dev.com/v2.0/dataset?search=${agency}&statusFilter=current`,
@@ -15,14 +16,14 @@ var getCurrInfo = (agency, time) => {
 
     var headers = {
         'accept': 'application/json',
-        'x-nextbus-jwt': fs.readFileSync(path.join(__dirname, '..', 'scripts', 'token.txt'))        
+        'x-nextbus-jwt': fs.readFileSync(path.join(__dirname, '..', 'scripts', 'token.txt'))
     };
 
     var options = (url) => {
         return {
-        url,
-        method: 'GET',
-        headers,
+            url,
+            method: 'GET',
+            headers,
         };
     };
 
@@ -37,75 +38,73 @@ var getCurrInfo = (agency, time) => {
     var optionsd = options(urld)
 
 
-   
+
     // Search through each environment to pick-off the timezone
- 
+
     // call to dev
-    var getCurrInfoDev = () => {
-        rp((optionsd), (error, response, body) => {
-            if (!error && response.statusCode === 200) {
-                
-                data = JSON.parse(body); 
-                if (Object.keys(data).length != 0) {
-                    var tmz = data[0].timezone;
-                    var propertmz = moment.tz(`${time}`, `${tmz}`);
-                    console.log(propertmz.format(), `${tmz}`);
+    return new Promise((resolve, reject) => {
+        var getCurrInfoDev = () => {
+
+            return request.get((optionsd), (error, response, body) => {
+                if (!error && response.statusCode === 200) {
+
+                    data = JSON.parse(body);
+                    if (Object.keys(data).length != 0) {
+                        console.log('Ahhhh, I see you have a Dev agency...\n');
+                        resolve(data[0].timezone);
+                    } else {
+                        console.log(`Can't find your timezone.`);
+                    }
                 } else {
-                    console.log(`Can't find your timezone.`)
-                }            
-            } else {
-                console.log(`Error in request`, error);
-            }
-        });
-    };
-    // call to stage
-    var getCurrInfoStage = () => {
-         return request.get((optionss), (error, response, body) => {
-            if (!error && response.statusCode === 200) {
-                
-                data = JSON.parse(body); 
-                if (Object.keys(data).length != 0) {
-                    var tmz = data[0].timezone;
-                    var propertmz = moment.tz(`${time}`, `${tmz}`);
-                    console.log(propertmz.format(), `${tmz}`);
-                    // console.log(`Success Stage: ${tmz}`);
+                    reject(error);
+                    console.log(`Error in request`, error);
+                }
+            });
+        };
+        // call to stage
+        var getCurrInfoStage = () => {
+            return request.get((optionss), (error, response, body) => {
+                if (!error && response.statusCode === 200) {
+
+                    data = JSON.parse(body);
+                    if (Object.keys(data).length != 0) {
+                        resolve(data[0].timezone);
+                    } else {
+                        console.log('Not in Stage!... Checking Dev...');
+                        getCurrInfoDev();
+                    }
                 } else {
-                    console.log('Not in Stage!... Checking Dev...')
-                    getCurrInfoDev();
-                }            
-            } else {
-                console.log(`Error in request`, error);
-            }
-        });
-    };
+                    reject(error);
+                    console.log(`Error in request`, error);
+                }
+            });
+        };
 
-    var getCurrInfoProd = () => {
-        return request.get((optionsp), (error, response, body) => {
-           if (!error && response.statusCode === 200) {
-               
-               data = JSON.parse(body); 
-               if (Object.keys(data).length != 0) {
-                   var tmz = data[0].timezone;
-                   var propertmz = moment.tz(`${time}`, `${tmz}`);
-                   console.log(propertmz.format(), `${tmz}`);
-                   // console.log(`Success Stage: ${tmz}`);
-               } else {
-                   console.log('Agency not in Prod!... Checking Stage...')
-                   getCurrInfoStage();
-               }            
-           } else {
-               console.log(`Error in request`, error);
-           }
-       });
-   };
+        var getCurrInfoProd = () => {
+            return request.get((optionsp), (error, response, body) => {
+                if (!error && response.statusCode === 200) {
 
-    // Call prod first, if nothing is found, it will call funtions to 
-    // look through the other environments.
-    getCurrInfoProd();
+                    data = JSON.parse(body);
+                    console.log('Finding the agency and converting the date and time to the proper timezone...');
+                    if (Object.keys(data).length != 0) {
+                        resolve(data[0].timezone);
+                    } else {
+                        console.log('Agency not in Prod!... Checking Stage...');
+                        getCurrInfoStage();
+                    }
+                } else {
+                    reject(error);
+                    console.log(`Error in request`, error);
+                }
+            });
+        };
 
 
+        getCurrInfoProd();
+    });
+
+}
+
+module.exports = {
+    getCurrInfo
 };
-
-module.exports = {getCurrInfo};
-
-

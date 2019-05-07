@@ -103,29 +103,45 @@ NOTE that you can only tail one import at a time. You can still update all envir
 
 ```script
 Options:
-  -a, --agency        NB2 agency (ex: cha)                   [string] [required]
-  -t, --time          Time to upload (ex: 2025-06-05T06:00:00z)
-                                                             [string] [required]
-  -z, --timezone      Timezone for agency (ex: America/New_York)
-                                                             [string] [required]
-  -s, --smoothing     Set between 0-18, set to 18 to keep original value
-                                                             [string] [required]
-  -d, --description   Add description for upload (ex: Schedule update for Spring
+  --version           Show version number                              [boolean]
+  -a, --agency        Agency ID (ex: vmc)                    [string] [required]
+  -t, --time          Leave blank to update now. Otherwise, enter the date and
+                      time you'd like to schedule the import. The script will
+                      adjust the time based on the agency timezone. Use the 24hr
+                      clock AND double quotes:
+                      format example: "2019-05-06 02:00" (2am) OR "2019-05-06
+                      14:00" (2pm)                                      [string]
+  -s, --smoothing     Leave blank to keep original value of 18, otherwise set
+                      between 0-18.                                     [string]
+  -d, --description   Add description for upload-
+                      use double quotes (ex: "Schedule update for Spring")
                                                              [string] [required]
   -f, --filename      Be sure to have the .zip file in the postGTFS dir
-                      (ex: cha_export.zip)                   [string] [required]
+                      (ex: vmc_export.zip)                   [string] [required]
   -e, --environments  all for all, ps for prod & stage
                       sd for stage & dev
                       p for prod, s for stage, d for dev     [string] [required]
+  --help, -h          Show help                                        [boolean]
+
+
                       
   $ cd postGTFS/
-  $ node postGTFS.js -a [agency] -t [time] -z [timezone] -s [smoothing] -d [description] -f [filename] -e [environments]
+  $ node postGTFS.js -a [agency] -d [description] -f [filename] -e [environments] < OPTIONAL: -t [time] -s [smoothing] >
   
 ```
 If successful, the script will return something like:
 ```script
-$ You are updating shape-test for Dev and your id is 1552- THIS UPDATE HAS BEEN SENT TO NB2 Dev
+$ Looking up and converting the timezone...
+Agency not in Prod!... Checking Stage...
+Not in Stage!... Checking Dev...
+Ahhhh, I see you have a Dev agency...
+
+Now lets update shape-test's data!
+
+You are updating shape-test for Dev and your id is 1552- THIS UPDATE HAS BEEN SENT TO NB2 Dev
+
 Now...Updating with current status for the import every 10 seconds until COMPLETE, SCHEDULED or ERROR. 
+
 Message id: 
 filename: /tmp/gtfs-2019-105-21-22-12.zip authorityProperties: {"distanceConversion":1,"timezone":"America/New_York"}
 Using temporary authority 247a0637-2c14-4585-ab28-dc9229ba62d0
