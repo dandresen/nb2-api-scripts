@@ -56,6 +56,7 @@ The packages used in these scripts are:
   "dependencies": {
     "jsonexport": "^2.4.1",
     "moment": "^2.24.0",
+    "moment-timezone": "^0.5.25",
     "request": "^2.88.0",
     "yargs": "^13.2.2"
   },
