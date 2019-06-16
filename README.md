@@ -46,9 +46,6 @@ below. (Your versions will be different)
 Just go on [official Node.js website](http://nodejs.org/) & grab the installer for the most recent version.
 Also, be sure to have `git` available in your PATH, `npm` will need it.
 
-#### You shouldn't, but if you get an error about a package not being installed, install it using npm. 
-
-    $ npm i [package name] --save
 
 The packages used in these scripts are:
 
@@ -60,7 +57,9 @@ The packages used in these scripts are:
     "request": "^2.88.0",
     "yargs": "^13.2.2"
   },
+ 
 ```
+ Run `$ npm install` to install all of the packages. 
 
 ### Clone
 
