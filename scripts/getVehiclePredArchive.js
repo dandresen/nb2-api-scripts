@@ -95,7 +95,7 @@ var vehPredArchive = (agency, vehicle, start, end, max, environment) => {
                         
                 };
 
-                // Strip out the bs in the keys 
+                // clean up the data
                 var readableKeys = (keyIn) => {
                     if (keyIn == null) {
                         return "MISSING-KEY"
@@ -118,9 +118,7 @@ var vehPredArchive = (agency, vehicle, start, end, max, environment) => {
                         predicted_departure: readableTime(archive.predicted_departure),
                         actual_departure: readableTime(archive.actual_departure),
                         predicted_arrival: readableTime(archive.predicted_arrival),
-                        actual_arrival: readableTime(archive.actual_arrival),
-                        // nextbus_version: archive.nextbus_version
-        
+                        actual_arrival: readableTime(archive.actual_arrival)
                     };
                 });
 
@@ -132,8 +130,6 @@ var vehPredArchive = (agency, vehicle, start, end, max, environment) => {
                     if(err) {
                         return console.log(err);
                     }    
-                        // console.log(csv);
-
                         fs.writeFile(`./output/VehArchive-${agency}-Veh${vehicle}-${csvStartTime}to${csvEndTime}.csv`, csv, function(err) {
                             if(err) {
                                 return console.log(err);
