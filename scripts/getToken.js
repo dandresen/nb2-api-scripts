@@ -1,5 +1,5 @@
 // Run this from the scripts directory
-// If all of your passwords and usernames for nextbus2 are the same, then you are good-to-go.
+// If all of your passwords and usernames for nb2 are the same, then you are good-to-go.
 // If not, you can change the url to whatever enviroment you'd like (line 37). 
 
 const request = require('request');
