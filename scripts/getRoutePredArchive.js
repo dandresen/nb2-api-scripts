@@ -88,7 +88,7 @@ var routePredArchive = (agency, route, start, end, max, environment) => {
                         
                 };
 
-                // strip out the bs in the keys 
+                // clean up the data
                 var readableKeys = (keyIn) => {
                     if (keyIn == null) {
                         return "MISSING-KEY"
