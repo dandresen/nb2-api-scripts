@@ -1,5 +1,10 @@
 node_modules/*
+<<<<<<< HEAD
 postGTFS/data/*
+=======
+postGTFS/data/
+pstGTFS/*.txt
+>>>>>>> dev
 postGTFS/*.zip
 scripts/token.txt
 scripts/output/*
