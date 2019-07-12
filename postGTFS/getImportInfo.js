@@ -32,7 +32,6 @@ var getImportUpdate = (nbID, environment) => {
         };
     };
 
-    // var intoStuff = options();
     var getTheUpdateInfo = (options, environment) => {
         return request.get((options), (error, response, body) => {
             if (!error && response.statusCode === 200) {
@@ -47,7 +46,7 @@ var getImportUpdate = (nbID, environment) => {
                     };
                 })
 
-                // loop through allMessages to get object
+                // what's happening with the import?
                 for (var i=0; i<allMessages.length; i++)
                     // Import fails
                     if (allMessages[i].description == "A fatal error has occurred and import cannot be completed.") {
