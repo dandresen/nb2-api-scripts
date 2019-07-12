@@ -1,0 +1,277 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon
+2435001,2435001,"S Averill Ave & W 8th St",,33.73706,-118.30768
+2435000,2435000,"W 7th St & S Butte St",,33.73798,-118.30637
+26009,26009,"Crenshaw Blvd. & Crestridge",,33.76695,-118.37205
+26008,26008,"Crossfield Dr. at Silver Spur Rd. (close walk to PHS)",,33.77363,-118.37457
+26005,26005,"Crenshaw Blvd. at Palos Verdes Dr. N.",,33.7823,-118.35258
+26004,26004,"P.V. Dr. N./Rolling Hills (Kelly's Korner)",,33.77645,-118.34348
+26007,26007,"Silver Spur Rd. at Drybank Dr.",,33.77207,-118.37153
+26006,26006,"Silver Spur Rd. Beechgate Dr.",,33.77036,-118.36703
+26000,26000,"Conestoga",,33.76778,-118.32291
+26001,26001,"P.V. Dr. North/East",,33.77288,-118.32716
+26002,26002,"P.V. Dr. North/Dapplegray Lane",,33.7722,-118.33076
+26003,26003,"Dapplegray School",,33.77313,-118.338989
+26207,26207,"Rolling Hills Rd./Shadow Lane",,33.78244,-118.34116
+26206,26206,"PV Dr. North/Portuguese Bend Rd.",,33.77622,-118.3437
+26209,26209,"P.V. Dr. North/Crenshaw Bl.(RHE City Hall)",,33.78318,-118.35291
+26208,26208,"Rolling Hills/Crenshaw",,33.78814,-118.3405
+26203,26203,"Rolling Hills Rd./Shadow Ln.",,33.78275,-118.34114
+26202,26202,"Rolling Hills/Crenshaw",,33.788,-118.34067
+26205,26205,"P.V. Dr. North: (bus stops at Kelly's Corner)",,33.7773,-118.34341
+26204,26204,"PV Dr. North/Monticello",,33.7748,-118.32134
+758730,758730,"Ridgecrest School",,33.76572,-118.3782
+26200,26200,"P.V. Dr. North/Academy Rd.",,33.78346,-118.35399
+26039,26039,"Palos Verdes Blvd. at Paseo De La Plya",,33.80506,-118.39061
+26037,26037,"Palos Verdes Blvd. Calle Miramar",,33.81105,-118.38691
+26038,26038,"Palos Verdes Blvd. at Calle Mayor",,33.80817,-118.3887
+26193,26193,"Silver Spur School (Montemalaga Dr./Basswood Ave.)",,33.78756,-118.37653
+26192,26192,"Coronel Plaza (Via Margarita/Via Coronel)",,33.7843,-118.39184
+26191,26191,"Via Coronel/Paseo La Cresta",,33.78542,-118.39905
+26036,26036,"Palos Verdes Blvd. at Catalina Ave.",,33.81513,-118.38656
+26292,26292,"Palos Verdes Dr. N. at Via Alameda",,33.80228,-118.38109
+26035,26035,"Palos Verdes at Via Valencia",,33.81659,-118.38518
+26291,26291,"PV Dr. North-Latigo Ln.",,33.79136,-118.36273
+26034,26034,"Ave. I at Elena Ave.",,33.81884,-118.38567
+26290,26290,"PV Dr. North-Latigo Ln.",,33.79161,-118.36245
+26194,26194,"Peninsula Verde",,33.77559,-118.30918
+26033,26033,"Catalina Ave. at Ave. I",,33.81904,-118.38808
+26032,26032,"Catalina Ave. at Elena Ave.",,33.81615,-118.38683
+26031,26031,"Palos Verdes Blvd. Calle Miramar",,33.81106,-118.3867
+26199,26199,"Rancho Vista School",,33.78608,-118.3572
+26030,26030,"Palos Verdes Blvd. at Calle Mayor",,33.80809,-118.3885
+26198,26198,"Blackhorse Rd./Hawthorne Blvd.",,33.78085,-118.36965
+26048,26048,"P.V. Dr. West-Berry Hill Dr.",,33.75839,-118.4136
+26049,26049,"P.V. Dr. West-rue Beaupre (across from)",,33.7517,-118.40916
+26045,26045,"Palos Verdes Dr. W. at. Avenida Mirola",,33.77282,-118.41592
+26044,26044,"Palos Verdes Dr. W. at Via Carillo",,33.77533,-118.41742
+26047,26047,"Palos Verdes Dr. W. at Via Anacapa",,33.76537,-118.41425
+26046,26046,"Paseo Lunado Drive",,33.76865,-118.41364
+26041,26041,"Palos Verdes Dr. W. at Paseo Del Mar",,33.78873,-118.41025
+26040,26040,"Malaga Cove Plaza",,33.80042,-118.39033
+26043,26043,"Palos Verdes Intermediate School",,33.78051,-118.41539
+26042,26042,"Palos Verdes Dr. W. Apsley Rd.",,33.78571,-118.41251
+26017,26017,"Hawthorne Blvd. at Highridge Rd.",,33.7789,-118.38459
+26018,26018,"Hawthorne Blvd. at Indian Peak Rd.",,33.77651,-118.37798
+26015,26015,"Highridge Rd. at Terrace Rd.",,33.77195,-118.38116
+26016,26016,"Highridge Rd. at Hilltop Circle",,33.77614,-118.38377
+26019,26019,"Silver Spur Rd. at Hawthorne Blvd.",,33.77703,-118.37472
+26171,26171,"Silver Spur Rd./Montemalaga",,33.78765,-118.3722
+26010,26010,"Crest Rd. & Crenshaw Blvd.",,33.76278,-118.37051
+26179,26179,"1208 Via Coronel",,33.78056,-118.40804
+26178,26178,"Via Zurita across from 1540",,33.78354,-118.40388
+26177,26177,"Via Coronel/Paseo La Cresta",,33.78594,-118.39868
+26176,26176,"Coronel Plaza (N.E. Corner)",,33.78451,-118.39178
+26175,26175,"Montemalaga School",,33.79048,-118.39425
+26014,26014,"Highridge Rd at Whitley Collins Dr.",,33.76543,-118.38085
+26013,26013,"Highridge Rd. at Scotwood Dr.",,33.76136,-118.38
+27813,27813,"Northbay Rd. & Whitley Collins Dr. (Ridgecrest School)",,33.76523,-118.37837
+26174,26174,"Via Fernandez",,33.79167,-118.38874
+26012,26012,"Crest Rd. at Highridge Rd.",,33.75928,-118.3797
+26173,26173,"Silver Spur School (Montemalaga Dr./Basswood Ave.)",,33.7878,-118.37645
+26011,26011,"Crest Rd. at Whitley Collins Dr.",,33.76059,-118.37439
+26172,26172,"Silver Spur-Crossfield  (The Avenue)",,33.77538,-118.37515
+26026,26026,"Palos Verdes Dr. N. Via Navajo",,33.80217,-118.36987
+2434988,2434988,"W 7th St & S Leland St",,33.73784,-118.30132
+2434989,2434989,"W 7th St & S Alma St",,33.73784,-118.29917
+26027,26027,"Palos Verdes Dr. N. at Via Colusa",,33.80285,-118.37405
+2434986,2434986,"W 7th St & S Patton Ave",,33.73781,-118.30582
+26028,26028,"Palos Verdes Dr. N. at Via Alameda",,33.8019,-118.3814
+2434987,2434987,"W 7th St & S Walker Ave",,33.73783,-118.30305
+26029,26029,"Palos Verdes Blvd. at Paseo De La Plya",,33.80491,-118.3904
+2434985,2434985,"W 7th St & S Averill Ave",,33.73784,-118.30742
+26180,26180,"1374 Via Coronel (Via Castilla)",,33.77442,-118.40584
+26182,26182,"2635 Via Olivera/Via Zumaya",,33.76946,-118.40888
+26181,26181,"Via Castilla/Via Zumaya",,33.7698,-118.40528
+26187,26187,"Via Zumaya/Via Castilla",,33.76959,-118.40546
+26021,26021,"Silver Spur Rd. at Elkmont Dr.",,33.78514,-118.37263
+26020,26020,"Peninsula High School",,33.77921,-118.37418
+26023,26023,"Palos Verdes Dr. N. at Silver Spur Rd.",,33.79159,-118.36266
+26184,26184,"Via Coronel/Via Boronada",,33.78026,-118.41352
+26022,26022,"Silver Spur Rd. at Kingspine",,33.78972,-118.3696
+26183,26183,"P.V. Intermediate School (Via Estudillo/Via Olivera)",,33.77672,-118.41148
+26025,26025,"Palos Verdes Dr. N. at Valmonte Plaza",,33.79907,-118.36537
+26186,26186,"Via  Olivera/Via Zumaya (across from 2635)",,33.76934,-118.40912
+26024,26024,"Palos Verdes Dr. N. at Via Campesina",,33.795557,-118.366607
+26185,26185,"Via Coronel/Via Boronada",,33.7801,-118.41382
+759006,759006,"PV Drive North/East",,33.77287,-118.32721
+26086,26086,"Dapplegray School",,33.77299,-118.33906
+26167,26167,"P.V. High School (Cloyden/Dalton Rd.)",,33.78152,-118.41855
+759005,759005,"Western & Capitol",,33.75359,-118.30884
+26087,26087,"P.V. Dr. North/Dapplegray Lane",,33.77195,-118.33003
+26084,26084,"Palos Verdes Dr. N. at Crenshaw Blvd.",,33.7821,-118.35198
+26085,26085,"Palos Verdes Dr. N. at Portugese Bend Rd.",,33.77652,-118.34402
+26166,26166,"P.V. Intermediate School (Via Olivera)",,33.77719,-118.41116
+26163,26163,"PV Dr. West at Malaga Cove Plaza",,33.80033,-118.38911
+26164,26164,"Paseo Del Mar/Avon Rd.",,33.78643,-118.41667
+26088,26088,"P.V. Dr. North/East",,33.77257,-118.32706
+26161,26161,"Palos Verdes Library",,33.77052,-118.37189
+26089,26089,"Palos Verdes Dr. East/Harbor Sight Dr.",,33.76867,-118.32352
+26162,26162,"Silver Spur Rd./Montemalaga",,33.78715,-118.37214
+26262,26262,"Via Pacheco & Epping Rd.",,33.77699,-118.41914
+26160,26160,"J. Montgomery",,33.77005,-118.30942
+26261,26261,"Hawthorne & Via Rivera",,33.7488,-118.40462
+26266,26266,"Los Verdes Dr. & Hawthorne",,33.75528,-118.39654
+26082,26082,"Silver Spur Rd. at Drybank Dr.",,33.77189,-118.37161
+26083,26083,"Silver Spur Rd. Beechgate Dr.",,33.77,-118.36642
+26267,26267,"Esplendia & Crest Rd.",,33.76129,-118.39778
+26080,26080,"Crenshaw Blvd. & Crestridge",,33.76687,-118.37179
+26081,26081,"Crossfield Dr. at Silver Spur Rd. (close walk to PHS)",,33.77351,-118.37408
+26265,26265,"Hawthorne & Dupre Dr.",,33.75235,-118.39556
+26268,26268,"Hawthorne Blvd. & Crest Rd. (Ralphs)",,33.76095,-118.39308
+26169,26169,"Paseo Del Mar/Avon Rd.",,33.78621,-118.41669
+2434991,2434991,"W 7th St & S Cabrillo Ave",,33.73779,-118.29476
+26073,26073,"Highridge Rd. at Hilltop Circle",,33.77597,-118.38403
+26154,26154,"Western/Park Plaza",,33.75208,-118.3087
+2434992,2434992,"W 7th St & S Grand Ave",,33.73778,-118.29027
+26074,26074,"Highridge Rd. at Armaga Springs Rd.",,33.77196,-118.38129
+26155,26155,"Western-Trudi",,33.75356,-118.30881
+26075,26075,"Highridge Rd at Whitley Collins Dr.",,33.76523,-118.38098
+26156,26156,"Western/Caddington Dr.",,33.75757,-118.31124
+2434990,2434990,"W 7th St & S Meyler St",,33.73781,-118.29688
+26076,26076,"Highridge Rd. at Scotwood Dr.",,33.76133,-118.3802
+26157,26157,"Western-Toscanini Dr.",,33.75986,-118.31235
+26077,26077,"Crest Rd. at Highridge Rd.",,33.75908,-118.3797
+26150,26150,"PV Dr. South-Ocean Trails Dr.",,33.73312,-118.3476
+26078,26078,"Crest Rd. at Whittles Collins Dr.",,33.76078,-118.3737
+26151,26151,"Ganado Dr.-Floweridge Dr.",,33.73451,-118.33715
+26152,26152,"Miraleste Dr. & Via Colinita",,33.74572,-118.31808
+26079,26079,"Crest Rd. & Crenshaw Blvd.",,33.7626,-118.37035
+26252,26252,"Vista Grande School (Golden Meadow & Purple Ridge )",,33.77162,-118.40339
+26070,26070,"Hawthorne Blvd. at Silver Spur Rd.",,33.77665,-118.37535
+26071,26071,"Hawthorne Blvd. at Indian Peak Rd.",,33.7768,-118.37806
+26072,26072,"Highridge Rd. at Hawthorne Blvd.",,33.77871,-118.38507
+26256,26256,"Hawthorne Blvd. & Crest Rd. (Ralph's)",,33.76067,-118.39376
+26258,26258,"Hawthorne & Ryan Park",,33.75118,-118.39391
+2434999,2434999,"W 7th St & S Walker Ave",,33.73796,-118.30367
+2434998,2434998,"W 7th St & S Leland St",,33.73795,-118.30165
+2434997,2434997,"W 7th St & S Bandini St",,33.73797,-118.29877
+2434996,2434996,"W 7th St & S Meyler St",,33.73795,-118.29653
+26159,26159,"Western-Avenida Aprenda - across",,33.76669,-118.31035
+2434995,2434995,"W 7th St & S Cabrillo Ave",,33.73794,-118.29435
+26158,26158,"Western/Delasonde Dr.",,33.76288,-118.31155
+2434994,2434994,"W 7th St & S Gaffey St",,33.73794,-118.29196
+2434993,2434993,"W 7th St & S Grand Ave",,33.7379,-118.28945
+26068,26068,"Silver Spur Rd. at Willow Wood Rd.",,33.78622,-118.37255
+26141,26141,"Miraleste Plaza",,33.74914,-118.32468
+26069,26069,"Peninsula High School",,33.77961,-118.37428
+26142,26142,"PV Dr. East-La Vista Dr.",,33.7419,-118.32608
+26066,26066,"Palos Verdes Dr. N. at Via Campesina",,33.79584,-118.36692
+26067,26067,"Palos Verdes Dr. N. at Silver Spur Rd.",,33.79147,-118.36282
+26064,26064,"Palos Verdes Dr. N. Via Navajo",,33.80179,-118.36996
+26145,26145,"P.V. High School (Cloyden Rd./Dalton Rd.)",,33.78123,-118.41848
+26146,26146,"P.V. High School (Epping Rd.)",,33.77825,-118.42314
+26065,26065,"Palos Verdes Dr. N. at Via Valmonte",,33.79911,-118.36584
+26062,26062,"Palos Verdes Dr. N. at Paseo Del Campo",,33.8021,-118.38075
+26143,26143,"Ganado Dr. @ Floweridge Dr.",,33.73457,-118.33747
+26063,26063,"Palos Verdes Dr. N. Via Colusa",,33.80246,-118.37427
+26144,26144,"PV Dr. South-Conqueror Dr.",,33.73389,-118.34887
+25989,25989,"Weymouth Ave. at 9th St.",,33.73653,-118.3096
+26060,26060,"Palos Verdes Dr. W. at Via Monte Mar",,33.79303,-118.40405
+26288,26288,"P.V. Dr. West-Via Lorado",,33.76032,-118.41434
+25988,25988,"Averill Ave & 8th St.",,33.73706,-118.30781
+26286,26286,"Ganado Dr. 30714",,33.73944,-118.33942
+26287,26287,"Ganado Dr. at Abrazo Dr.",,33.74248,-118.3378
+26282,26282,"Via Fernandez",,33.79143,-118.38854
+26149,26149,"PV Dr. South-Seacove Dr.",,33.74469,-118.38371
+26148,26148,"P.V. Dr. West-Calle Endratero",,33.75755,-118.41278
+26055,26055,"Paseo Lunado Drive",,33.76888,-118.41318
+26056,26056,"Palos Verdes Dr. W. at. Avenida Mirola",,33.77274,-118.41539
+26057,26057,"Palos Verdes Dr. W. at Via Carillo",,33.77545,-118.41706
+26130,26130,"P.V. Dr. North/Rolling Vista Dr.",,33.77667,-118.31476
+26131,26131,"Western-PV Dr. North",,33.77866,-118.30961
+26058,26058,"Palos Verdes Dr. W. at Via Coronel",,33.78043,-118.41482
+26132,26132,"J. Montgomery",,33.77042,-118.30963
+26051,26051,"Palos Verdes Dr. W. at Hawthorne Blvd.",,33.74871,-118.40721
+26133,26133,"Avenida Aprenda",,33.76712,-118.31071
+26052,26052,"P.V. Dr. W.-Rue Beaupre",,33.75195,-118.4089
+26134,26134,"Delasonde",,33.76323,-118.31172
+26053,26053,"P.V. Dr. West-Berry Hill Dr.",,33.7584,-118.41312
+26135,26135,"Toscanini Dr.",,33.76014,-118.31264
+26054,26054,"P.V.Drive West-Via De La Guerra Dr.",,33.76487,-118.41395
+25998,25998,"Rockinghorse",,33.75927,-118.33013
+25997,25997,"Miraleste Library",,33.75606,-118.32919
+26050,26050,"PV Drive West & Hawthorne (Golden Cove Plaza)",,33.74894,-118.4077
+25999,25999,"Bronco",,33.76417,-118.33107
+25994,25994,"Miraleste Dr. at Via Colinita",,33.74587,-118.319
+25993,25993,"1st St. at Miraleste Dr.",,33.74319,-118.31881
+26272,26272,"Vista Grande School (Golden Meadow & Purple Ridge)",,33.7714,-118.40305
+25996,25996,"Palos Verdes Dr. E. at Via Canada",,33.75151,-118.32637
+26273,26273,"Larkvale & Trailriders",,33.77732,-118.40084
+25995,25995,"Miraleste Plaza",,33.7497,-118.32556
+25990,25990,"Weymouth Ave at 7th St.",,33.73777,-118.30959
+25991,25991,"1st St. at Western Ave.",,33.74356,-118.31029
+25992,25992,"1st St. at Miracosta St.",,33.74343,-118.31515
+26137,26137,"Trudie",,33.75389,-118.30923
+26136,26136,"Caddington Drive",,33.75757,-118.31168
+26138,26138,"Park Plaza",,33.75228,-118.30908
+26059,26059,"Palos Verdes Dr. W. Apsley Rd.",,33.78524,-118.41224
+759042,759042,"PVPHS (short walk)",,33.77628,-118.37514
+26222,26222,"Hawthorne Blvd. & Ocean Crest Dr.",,33.76302,-118.39224
+759043,759043,"PVPHS (short walk)",,33.77637,-118.37475
+26221,26221,"Hawthorne Blvd. at Hesse Park",,33.76815,-118.39141
+26220,26220,"Hawthorne Blvd. & Eddinghill Dr.",,33.77281,-118.39249
+26124,26124,"Ganado Dr. 30558",,33.74065,-118.33702
+26123,26123,"Ganado Dr. 30558",,33.74059,-118.33691
+26121,26121,"Ganado Dr. 30714",,33.73959,-118.33939
+26120,26120,"PV Dr. East-Ganado Dr./Floweridge Dr.",,33.73285,-118.33462
+26129,26129,"P.V. Dr. North/Peninsula Verde",,33.77636,-118.31454
+26127,26127,"Mira Catalina School",,33.74056,-118.33475
+26128,26128,"Marymount College",,33.73496,-118.33395
+26125,26125,"Ganado Dr. across Abrazo Dr.",,33.742428,-118.337884
+26226,26226,"Hawthorne Blvd. & Vallon Dr.",,33.74862,-118.39405
+759435,759435,"Palos Verdes Library",,33.77076,-118.37169
+26227,26227,"Hathorne Blvd. at Salvation Army Site",,33.74598,-118.39898
+759434,759434,"Miraleste Dr. & Via Colinita",,33.74589,-118.31898
+759433,759433,"Via Bramante & Via Del Plaza",,33.74899,-118.32355
+26224,26224,"Hawthorne Blvd. & Los Verdes Dr.",,33.75542,-118.39628
+759432,759432,"Miraleste Dr. & Via Colinita",,33.7458,-118.31943
+26229,26229,"Rue de la Pierre",,33.75429,-118.40713
+26210,26210,"Rancho Vista School",,33.78615,-118.35693
+26212,26212,"PVP High School (short walk)",,33.77652,-118.37283
+26211,26211,"Blackhorse Rd. at 5038",,33.78046,-118.36941
+26111,26111,"PV Dr. South-Narcissa Dr.",,33.74134,-118.37393
+26110,26110,"PV Dr. South-Wayfarers Chapel Site",,33.74333,-118.37884
+26113,26113,"PV Dr. South-Peppertree Dr.",,33.73961,-118.36951
+26112,26112,"PV Dr. South-Narcissa Dr.",,33.74092,-118.37337
+26119,26119,"PV Dr. East-Ganado Dr./Floweridge Dr.",,33.73286,-118.33442
+26114,26114,"PV Dr. South-Peppertree Dr.",,33.73933,-118.36969
+26115,26115,"PV Dr. South-Schooner Dr.",,33.73504,-118.35455
+26116,26116,"PV Dr. South-Schooner Dr.",,33.73499,-118.35387
+766446,766446,"Silver Spur Rd. at Drybank Dr.",,33.77208,-118.37199
+26215,26215,"Ridgegate Dr. & Ridgecove Ct.",,33.77649,-118.38785
+26216,26216,"Hawthorne Blvd. & 7-11 Store",,33.77919,-118.39112
+26217,26217,"Monero Dr. & Hazelridge Dr.",,33.78139,-118.39713
+26218,26218,"Lakevale Dr. & Trailriders Dr.",,33.77757,-118.40071
+766442,766442,"1250 Via Coronel",,33.77734,-118.40745
+26244,26244,"Ridgecrest School",,33.76664,-118.37817
+26243,26243,"Ridgecrest School",,33.76543,-118.37842
+26242,26242,"Ridgegate Dr. & Ridgecove Ct.",,33.77632,-118.3878
+26241,26241,"Hawthorne Blvd. & 7-11 Store",,33.77908,-118.39143
+26102,26102,"Golden Cove Plaza",,33.74927,-118.4072
+26101,26101,"Point Vicente School",,33.75664,-118.40889
+26100,26100,"Palos Verdes Dr. W. at Via Monte Mar",,33.79216,-118.4044
+26105,26105,"PV Dr. South-Seahill Dr.",,33.74453,-118.39189
+26106,26106,"PV Dr. South-Seahill Dr.",,33.74476,-118.39204
+26103,26103,"PV Dr. South-Salvation Army Site",,33.7433,-118.39651
+26104,26104,"PV Dr. South-Salvation Army Site",,33.74293,-118.39616
+26109,26109,"PV Dr. South-Wayfarers Chapel Site",,33.74305,-118.3786
+26107,26107,"PV Dr. South-Barkentine Rd.",,33.7452,-118.38705
+26108,26108,"PV Dr. South-Barkentine Rd.",,33.74551,-118.38658
+26248,26248,"Ridgegate Dr. & Hawthorne",,33.77848,-118.3909
+26232,26232,"Hawthorne Blvd. & Vallon Dr.",,33.74845,-118.39369
+26092,26092,"Miraleste Library",,33.7557,-118.32919
+26231,26231,"Hawthorne Blvd. & Salvation Army Site",,33.74576,-118.39886
+26091,26091,"P.V. Dr. E./Mustang Rd.",,33.76015,-118.33027
+26094,26094,"Miraleste Dr. ar Miraleste Plaza",,33.7495,-118.32441
+26093,26093,"Palos Verdes Dr. E. at Via Canada",,33.75173,-118.32642
+26090,26090,"Bronco",,33.76416,-118.33121
+26099,26099,"Miraleste Intermediate",,33.75338,-118.32954
+844531,844531,"7th & Pacific",,33.73788,-118.28767
+26096,26096,"1st St. at Miraleste Dr.",,33.74302,-118.31886
+844532,844532,"7th & Pacific",,33.73773,-118.28775
+26095,26095,"Miraleste Dr. at Via Colinita",,33.74581,-118.31943
+26098,26098,"Western Ave. at 1st St.",,33.74316,-118.30998
+26097,26097,"1st St. at Miracosta St.",,33.74327,-118.31519
+26236,26236,"Hawthorne Blvd. & Country Ln.",,33.76324,-118.39171
+26237,26237,"Hawthorne Blvd. at Hesse Park",,33.76858,-118.39119
+26238,26238,"Eddinghill Dr. & Lomo Dr.",,33.77298,-118.39282

@@ -1,0 +1,158 @@
+route_id,service_id,trip_id,trip_headsign,block_id,shape_id
+"742",MoTuWeThFr,t_5361_b_718_tn_0,"S Western Ave. & 7th",1308,742_1_var0
+"743",Service2,t_5314_b_21608_tn_0,"PV Library",1421,743_0_var1
+"744",Service2,t_44669_b_21608_tn_0,"PV High School",1410,744_1_var0
+"745",Service1,t_771260_b_21608_tn_0,"PV Intermediate",1415,745_1_var0
+"745",Service2,t_771260_b_21608_tn_0,"PV Intermediate",1415,745_1_var0
+"744",Service1,t_44669_b_21608_tn_0,"PV High School",1410,744_1_var0
+"747",Service1,t_68395_b_21609_tn_0,"Miraleste Intermediate",1423,747_1_var0
+"743",Service1,t_5314_b_21608_tn_0,"PV Library",1421,743_0_var1
+"745",Service2,t_64486_b_21608_tn_0,"PV Intermediate",1416,745_1_var1
+"745",Service1,t_64486_b_21608_tn_0,"PV Intermediate",1416,745_1_var1
+"749",Service2,t_771266_b_21608_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1431,749_0_var0
+"749",Service1,t_771266_b_21608_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1431,749_0_var0
+"742",Service2,t_37748_b_718_tn_0,"S Western Ave. & 7th",1306,742_1_var0
+"840",Service1,t_5351_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1308,840_0_var0
+"742",Service1,t_37748_b_718_tn_0,"S Western Ave. & 7th",1306,742_1_var0
+"747",Service1,t_5252_b_21609_tn_0,"Miraleste Intermediate",1423,747_1_var0
+"748",Service2,t_53594_b_21608_tn_0,"Point Vicente School",1433,748_1_var0
+"748",Service1,t_53594_b_21608_tn_0,"Point Vicente School",1433,748_1_var0
+"742",Service2,t_5331_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1303,742_0_var0
+"742",Service1,t_5331_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1303,742_0_var0
+"742",MoTuWeThFr,t_35387_b_718_tn_0,"S Western Ave. & 7th",1305,742_1_var0
+"742",MoTuWeThFr,t_50732_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1305,742_0_var0
+"742",MoTuWeThFr,t_62875_b_718_tn_0,"S Western Ave. & 7th",1306,742_1_var0
+"745",Service2,t_37948_b_21608_tn_0,"PV Intermediate",1414,745_1_var0
+"742",Service2,t_53582_b_718_tn_0,"S Western Ave. & 7th",1305,742_1_var0
+"746",Service2,t_297134_b_21608_tn_0,"Miraleste",1429,746_1_var0
+"745",Service1,t_37948_b_21608_tn_0,"PV Intermediate",1414,745_1_var0
+"742",Service1,t_53582_b_718_tn_0,"S Western Ave. & 7th",1305,742_1_var0
+"746",Service1,t_297134_b_21608_tn_0,"Miraleste",1429,746_1_var0
+"742",Service2,t_5362_b_718_tn_0,"S Western Ave. & 7th",1309,742_1_var0
+"840",Service2,t_5356_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1309,840_0_var0
+"840",Service1,t_5356_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1309,840_0_var0
+"742",Service2,t_5359_b_718_tn_0,"S Western Ave. & 7th",1308,742_1_var0
+"746",Service2,t_5353_b_21608_tn_0,"Miraleste",1425,746_1_var2
+"743",Service2,t_771263_b_21608_tn_0,"PV Library",1420,743_0_var1
+"742",MoTuWeThFr,t_32713_b_718_tn_0,"S Western Ave. & 7th",1305,742_1_var0
+"748",Service1,t_5259_b_21608_tn_0,"Point Vicente School",1432,748_1_var0
+"746",Service1,t_5353_b_21608_tn_0,"Miraleste",1425,746_1_var2
+"743",Service1,t_771263_b_21608_tn_0,"PV Library",1420,743_0_var1
+"742",Service2,t_5336_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1304,742_0_var0
+"742",Service1,t_5336_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1304,742_0_var0
+"745",Service2,t_5214_b_21608_tn_0,"Ridgecrest School",1414,745_0_var0
+"742",Service1,t_5218_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1303,742_0_var0
+"745",Service1,t_5214_b_21608_tn_0,"Ridgecrest School",1414,745_0_var0
+"742",Service2,t_5218_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1303,742_0_var0
+"742",Service1,t_50732_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1305,742_0_var0
+"748",Service2,t_5259_b_21608_tn_0,"Point Vicente School",1432,748_1_var0
+"743",Service2,t_53949_b_21608_tn_0,"PV Intermediate",1420,743_1_var0
+"742",Service2,t_50732_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1305,742_0_var0
+"742",Service2,t_35387_b_718_tn_0,"S Western Ave. & 7th",1305,742_1_var0
+"743",Service1,t_53949_b_21608_tn_0,"PV Intermediate",1420,743_1_var0
+"742",Service1,t_5359_b_718_tn_0,"S Western Ave. & 7th",1308,742_1_var0
+"742",MoTuWeThFr,t_5218_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1303,742_0_var0
+"742",Service1,t_44363_b_718_tn_0,"S Western Ave. & 7th",1306,742_1_var0
+"748",Service1,t_69995_b_21608_tn_0,"Point Vicente School",1433,748_1_var0
+"748",Service2,t_69995_b_21608_tn_0,"Point Vicente School",1433,748_1_var0
+"840",MoTuWeThFr,t_5302_b_718_tn_0,"PV Drive West & Hawthorne",1304,840_1_var0
+"742",MoTuWeThFr,t_51462_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1306,742_0_var0
+"748",Service2,t_5247_b_21608_tn_0,"Miraleste",1432,748_0_var0
+"744",Service2,t_771259_b_21608_tn_0,"Ridgecrest School",1413,744_0_var1
+"742",MoTuWeThFr,t_5360_b_718_tn_0,"S Western Ave. & 7th",1309,742_1_var0
+"746",Service1,t_771406_b_21608_tn_0,"PV Library",1427,746_0_var3
+"748",Service1,t_5247_b_21608_tn_0,"Miraleste",1432,748_0_var0
+"744",Service1,t_771259_b_21608_tn_0,"Ridgecrest School",1413,744_0_var1
+"742",Service1,t_5360_b_718_tn_0,"S Western Ave. & 7th",1309,742_1_var0
+"742",Service2,t_5360_b_718_tn_0,"S Western Ave. & 7th",1309,742_1_var0
+"746",Service1,t_5265_b_21608_tn_0,"Miraleste",1426,746_1_var1
+"746",Service2,t_5265_b_21608_tn_0,"Miraleste",1426,746_1_var1
+"746",Service1,t_771265_b_21608_tn_0,"Ridgecrest School",1426,746_0_var2
+"746",Service2,t_771265_b_21608_tn_0,"Ridgecrest School",1426,746_0_var2
+"840",MoTuWeThFr,t_5351_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1308,840_0_var0
+"742",MoTuWeThFr,t_5329_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1304,742_0_var0
+"742",Service1,t_35387_b_718_tn_0,"S Western Ave. & 7th",1305,742_1_var0
+"747",Service1,t_56829_b_21609_tn_0,"Miraleste",1422,747_1_var1
+"742",Service2,t_5361_b_718_tn_0,"S Western Ave. & 7th",1308,742_1_var0
+"742",Service1,t_5361_b_718_tn_0,"S Western Ave. & 7th",1308,742_1_var0
+"742",Service2,t_69207_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1306,742_0_var0
+"742",Service1,t_5362_b_718_tn_0,"S Western Ave. & 7th",1309,742_1_var0
+"742",MoTuWeThFr,t_5362_b_718_tn_0,"S Western Ave. & 7th",1309,742_1_var0
+"746",Service2,t_771406_b_21608_tn_0,"PV Library",1427,746_0_var3
+"742",Service1,t_69207_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1306,742_0_var0
+"742",MoTuWeThFr,t_69207_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1306,742_0_var0
+"744",Service2,t_49827_b_21608_tn_0,"PV High School",1412,744_1_var1
+"744",Service1,t_49827_b_21608_tn_0,"PV High School",1412,744_1_var1
+"840",MoTuWeThFr,t_5301_b_718_tn_0,"PV Drive West & Hawthorne",1303,840_1_var0
+"742",MoTuWeThFr,t_5336_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1304,742_0_var0
+"749",Service2,t_771267_b_21608_tn_0,"PV High School",1430,749_1_var0
+"749",Service1,t_771267_b_21608_tn_0,"PV High School",1430,749_1_var0
+"746",Service1,t_5307_b_21608_tn_0,"PV Library",1425,746_0_var0
+"744",Service2,t_771258_b_21608_tn_0,"PV High School",1411,744_1_var0
+"742",Service1,t_62875_b_718_tn_0,"S Western Ave. & 7th",1306,742_1_var0
+"744",Service1,t_771258_b_21608_tn_0,"PV High School",1411,744_1_var0
+"742",Service2,t_62875_b_718_tn_0,"S Western Ave. & 7th",1306,742_1_var0
+"743",Service1,t_5215_b_21608_tn_0,"PV Intermediate",1418,743_1_var0
+"743",Service1,t_771262_b_21608_tn_0,"PV Intermediate",1419,743_1_var0
+"742",MoTuWeThFr,t_5358_b_718_tn_0,"S Western Ave. & 7th",1305,742_1_var0
+"746",Service1,t_771404_b_21608_tn_0,"Miraleste",1424,746_1_var2
+"745",Service1,t_68603_b_21608_tn_0,"Ridgecrest School",1416,745_0_var0
+"743",Service2,t_771262_b_21608_tn_0,"PV Intermediate",1419,743_1_var0
+"746",Service2,t_5307_b_21608_tn_0,"PV Library",1425,746_0_var0
+"746",Service2,t_771404_b_21608_tn_0,"Miraleste",1424,746_1_var2
+"742",Service2,t_5329_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1304,742_0_var0
+"742",Service2,t_5358_b_718_tn_0,"S Western Ave. & 7th",1305,742_1_var0
+"742",Service1,t_5329_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1304,742_0_var0
+"742",Service1,t_5358_b_718_tn_0,"S Western Ave. & 7th",1305,742_1_var0
+"746",Service1,t_771405_b_21608_tn_0,"PV Library",1428,746_0_var3
+"746",Service2,t_771405_b_21608_tn_0,"PV Library",1428,746_0_var3
+"745",Service2,t_68603_b_21608_tn_0,"Ridgecrest School",1416,745_0_var0
+"746",Service2,t_771264_b_21608_tn_0,"Ridgecrest School",1426,746_0_var1
+"743",Service2,t_5215_b_21608_tn_0,"PV Intermediate",1418,743_1_var0
+"746",Service1,t_771264_b_21608_tn_0,"Ridgecrest School",1426,746_0_var1
+"742",Service2,t_44363_b_718_tn_0,"S Western Ave. & 7th",1306,742_1_var0
+"742",MoTuWeThFr,t_5331_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1303,742_0_var0
+"742",MoTuWeThFr,t_5359_b_718_tn_0,"S Western Ave. & 7th",1308,742_1_var0
+"840",MoTuWeThFr,t_5356_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1309,840_0_var0
+"742",MoTuWeThFr,t_44363_b_718_tn_0,"S Western Ave. & 7th",1306,742_1_var0
+"840",Service2,t_5301_b_718_tn_0,"PV Drive West & Hawthorne",1303,840_1_var0
+"742",MoTuWeThFr,t_53582_b_718_tn_0,"S Western Ave. & 7th",1305,742_1_var0
+"840",Service1,t_5301_b_718_tn_0,"PV Drive West & Hawthorne",1303,840_1_var0
+"742",Service1,t_32713_b_718_tn_0,"S Western Ave. & 7th",1305,742_1_var0
+"742",Service2,t_32713_b_718_tn_0,"S Western Ave. & 7th",1305,742_1_var0
+"840",Service2,t_42050_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1308,840_0_var0
+"840",Service2,t_34203_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1309,840_0_var0
+"840",Service1,t_42050_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1308,840_0_var0
+"840",Service1,t_5303_b_718_tn_0,"PV Drive West & Hawthorne",1303,840_1_var0
+"840",Service2,t_5303_b_718_tn_0,"PV Drive West & Hawthorne",1303,840_1_var0
+"744",Service2,t_5312_b_21608_tn_0,"PV Library",1410,744_0_var0
+"840",Service1,t_34203_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1309,840_0_var0
+"744",Service1,t_5312_b_21608_tn_0,"PV Library",1410,744_0_var0
+"840",MoTuWeThFr,t_5303_b_718_tn_0,"PV Drive West & Hawthorne",1303,840_1_var0
+"743",Service2,t_5224_b_21608_tn_0,"PV Library",1418,743_0_var0
+"743",Service1,t_5224_b_21608_tn_0,"PV Library",1418,743_0_var0
+"742",Service2,t_31175_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1305,742_0_var0
+"746",Service1,t_771403_b_21608_tn_0,"PV Library",1424,746_0_var0
+"742",Service1,t_31175_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1305,742_0_var0
+"746",Service2,t_771403_b_21608_tn_0,"PV Library",1424,746_0_var0
+"742",Service1,t_53278_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1305,742_0_var0
+"742",Service2,t_53278_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1305,742_0_var0
+"840",MoTuWeThFr,t_34203_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1309,840_0_var0
+"742",MoTuWeThFr,t_53278_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1305,742_0_var0
+"742",Service2,t_51462_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1306,742_0_var0
+"742",Service1,t_51462_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1306,742_0_var0
+"745",Service2,t_771261_b_21608_tn_0,"Ridgecrest School",1417,745_0_var0
+"742",MoTuWeThFr,t_37748_b_718_tn_0,"S Western Ave. & 7th",1306,742_1_var0
+"745",Service1,t_771261_b_21608_tn_0,"Ridgecrest School",1417,745_0_var0
+"747",Service1,t_5261_b_21609_tn_0,"Miraleste",1422,747_1_var1
+"744",Service1,t_56337_b_21608_tn_0,"PV Library",1412,744_0_var0
+"744",Service2,t_56337_b_21608_tn_0,"PV Library",1412,744_0_var0
+"748",Service2,t_46619_b_21608_tn_0,"Miraleste",1433,748_0_var0
+"748",Service1,t_46619_b_21608_tn_0,"Miraleste",1433,748_0_var0
+"746",Service2,t_47877_b_21608_tn_0,"PV Library",1429,746_0_var0
+"840",MoTuWeThFr,t_42050_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1308,840_0_var0
+"742",MoTuWeThFr,t_31175_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1305,742_0_var0
+"746",Service1,t_47877_b_21608_tn_0,"PV Library",1429,746_0_var0
+"840",Service2,t_5302_b_718_tn_0,"PV Drive West & Hawthorne",1304,840_1_var0
+"840",Service1,t_5302_b_718_tn_0,"PV Drive West & Hawthorne",1304,840_1_var0
+"840",Service2,t_5351_b_718_tn_0,"Pacific Coast Hwy. & Palos Verdes Blvd.",1308,840_0_var0
