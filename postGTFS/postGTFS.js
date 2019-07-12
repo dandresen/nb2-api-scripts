@@ -54,7 +54,7 @@ function main() {
         // handle the -t NOT being passed in (i.e. update now)
         if (argv.t === undefined) { 
             var now = moment();
-            // take today's timestamp and subtract todays
+            // take today's timestamp and subtract two days 
             var goodtime = now.subtract(2, "days").format(`YYYY-MM-DDTHH:mm:ssZ`);
         } else {
         // converts the timezone here using 'tmz' (timezone) and the -t argument
@@ -115,7 +115,6 @@ function main() {
                 };
             };
 
-            // main function that post to data
             var postTheData = (options, envName) => {
                 return request.post((options), (error, response, body) => {
                     if (!error && response.statusCode === 200) {
