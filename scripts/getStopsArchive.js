@@ -95,7 +95,7 @@ var vehStopArchive = (agency, stopid, start, end, max, environment) => {
                         
                 };
 
-                // Strip out the bs in the keys 
+                // clean up the data
                 var readableKeys = (keyIn) => {
                     if (keyIn == null) {
                         return "MISSING-KEY"
