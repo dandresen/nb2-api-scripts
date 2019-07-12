@@ -3,8 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const moment = require('moment');
 
-// use this function to pass in the agency and the time to then get the agency timezone and convert
-// the time to that timezone
+// Determine an agency's timezone based on previous update.
 
 var getCurrInfo = (agency) => {
     var envUrl = {
@@ -98,8 +97,7 @@ var getCurrInfo = (agency) => {
                 }
             });
         };
-
-
+        
         getCurrInfoProd();
     });
 
