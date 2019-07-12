@@ -86,15 +86,6 @@ var getVehLog = (agency, vehicle, start, end, search, environment) => {
                     );     
                 };
 
-                // some times are null- mark these
-
-                // var readableTime = (time) => {
-                //     if (time == null ) {
-                //         return "MISSING-TIME";
-                //     }
-                //         return moment.unix(time).format("HH:mm:ss");            
-                // };
-
                 var readableTimestamp = (time) => {
                     if (time == null ) {
                         return "MISSING-TIME";
