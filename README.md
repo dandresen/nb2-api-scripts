@@ -1,5 +1,5 @@
 # nb2-api-scripts
-Command line scripts to interact with the NB2 API to make life easier. Keep in mind this a work in progress, as I build out and test these scripts, I will upate this README. If anyone wants to contribute, submit a pull request and have at it! 
+Command line scripts to interact with the NB2 API to make life easier. Keep in mind this a work in progress, as I build out and test these scripts, I will upate this README. 
 
 #### These scripts assume that you have access to the NB2 environments. It also assumes that your username and password are the same between all of the environments. If you have different username and passwords, please either make them all the same or, go to the FAQ section of this README.
 
@@ -63,9 +63,7 @@ The packages used in these scripts are:
 
 ### Clone
 
-Clone this repo to your local machine (the one you installed Node.js on) using https://github.com/dandresen/nb2-api-scripts.git
-
-You can also download the <a href=https://github.com/dandresen/nb2-api-scripts/archive/master.zip>zip</a> file.
+Clone or download this repo to your local machine.
 
 ---
 
@@ -202,7 +200,7 @@ $ From [environment]: {success: true, error: null}
 ---
 #### GET-Route-Predictions-Archive
 
-Using a route id, download as specific agencies route predictions during a timeframe.
+Using a route id, download as specific agencies route predictions during a timeframe. 
 
 <b>All time is in CST.</b>
 
